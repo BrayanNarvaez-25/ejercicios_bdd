@@ -81,7 +81,7 @@ UPDATE estudiantes SET apellidos = 'Rodríguez' WHERE id_estudiante =8;
 UPDATE estudiantes SET apellidos = 'Diaz' WHERE id_estudiante =9;
 UPDATE estudiantes SET apellidos = 'Romo' WHERE id_estudiante =10;
 UPDATE estudiantes SET nombres = 'Brayan', apellidos = 'Narváez', curso = 'Redes'
-WHERE id_estudiante =10;
+WHERE id_estudiante =11;
 
 -- PARTE 6: eliminación de registros
 DELETE FROM estudiantes WHERE id_estudiante = 10;

@@ -93,7 +93,7 @@ INSERT INTO estudiantes VALUES
 
 -- Modificacion de UPDATE
 UPDATE estudiantes SET correo = 'correoPrueba@hotmail.com' 
-WHERE id_estudiante IN (6,9);
+WHERE id_estudiante IN (3,4,9);
 
 -- Modificacion de DELETE
 DELETE FROM estudiantes WHERE correo = 'correoPrueba@hotmail.com';

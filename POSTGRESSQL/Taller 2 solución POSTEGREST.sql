@@ -76,7 +76,7 @@ WHERE id_estudiante =10;
 -- PARTE 6: eliminación de registros
 DELETE FROM estudiantes WHERE id_estudiante = 10;
 DELETE FROM estudiantes WHERE curso = 'Redes';
-DELETE FROM estudiantes WHERE fecha_registro >= '2020-02-14';
+DELETE FROM estudiantes WHERE fecha_registro >= '2026-02-14';
 
 -- PARTE 7: modificar tabla
 ALTER TABLE estudiantes ADD COLUMN correo VARCHAR(100);
